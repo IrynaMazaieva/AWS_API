@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "2.0.2"
+awscli = "1.22.37"
+boto3 = "1.20.37"
+pipfile = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
